@@ -1,0 +1,25 @@
+{
+  "@context" : {
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    }
+  }
+}
