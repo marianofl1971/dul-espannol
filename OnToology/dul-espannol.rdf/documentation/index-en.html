@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />   
+
+<!-- SCHEMA.ORG METADATA -->
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"https://w3id.org/def/dul-espannol","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://w3id.org/def/dul-espannol","name":"La ontología DOLCE+DnS Ultralite con DOLCE-Zero", "headline":"Document describing the ontology https://w3id.org/def/dul-espannol", "datePublished":"Mon Nov 06 02:56:45 UTC 2017", "version":"En 3.2, los enlaces entre las instancias de ‘región’ o ‘parámetro’ y sus tipos de datos han sido revisados y hecho más potentes, con el propósito de respaldar patrones de diseño para valores de datos que se modelan en OWL 1.0.
+También, los nombres de las propiedades relacionadas han sido cambiados para hacerlos más intuitivos. Asimismo, se ha añadido un campo de comentario de gran tamaño a la propiedad de objeto ‘expresa’, con el propósito de clarificar algunas cuestiones sobre sus muchas interpretaciones.
+
+En 3.3, se ha mejorado la relación entre regiones, parámetros, y tipos de datos.
+
+En 3.5, se han refactorizado las clases relacionadas con personas: ‘persona’ en 3.4 es ahora ‘persona social’, para evitar la confusión con la intuición de sentido común; ‘persona’ es ahora la unión de personas sociales y humanos, siendo, por tanto, subclase de ‘agente’.
+
+En 3.6, se han realizado otras correcciones sobre la restricción universal que involucra ‘expresa’. También se ha añadido la propiedad ‘es restricción de’ entre parámetros y entidades. Se han movido propiedades ‘asume’ y ‘adopta’ a un nuevo módulo:  http://www.ontologydesignpatterns.org/ont/dul/Conceptualization.owl.
+
+En 3,7, se han corregido algunos nombres de clases y propiedades relacionados con ‘entidad formal’; se ha creado un nuevo módulo separado para restricciones universales generales (DULGCI.owl).
+
+En 3.8, se han realizado más correcciones en la interfaz con las entidades formales y los enlaces a IOLite.owl.
+
+En 3.9, se han corregido algunos nombres y comentarios.
+
+En 3.10, se ha eliminado la restricción de cardinalidad de ‘tiene parte’ y ‘es parte de’, para que haya compatibilidad con OWL(DL). Además, éstas relaciones se han cambiado a ‘tiene componente’ y ‘es componente de’. También se ha aumentado el rango de ‘incluye agente’ para contener tanto agentes físicos como sociales, y de la restricción universal de ‘conceptualiza’ sobre ‘agentes’, para incluir todos los objetos sociales.
+
+En 3.11, se ha introducido algún axioma más subpropiedad, y todos los elementos tienen etiqueta en inglés.
+
+En 3.12, se han añadido clases para establecer correspondencias con algunas clases antiguas que habían sido utilizadas para el alineamiento con OntoWordNet.
+
+En 3.13, se ha añadido la clase ‘concepto local’ para expresar un concepto que no se puede utilizar en una ‘descripción’ diferente de la que lo define. También se han actualizado algunos comentarios.
+
+En 3.14, se han añadido algunos comentarios.
+
+
+En 3.16, el nombre de ‘es actuado por’ se ha cambiado por ‘actúa a través de’, que es más claro. También se ha añadido ‘región espacio temporal’ constituida por ‘región espacial’ e ‘intervalo de tiempo’.
+
+En 3.17, se han eliminado los axiomas universales redundantes de ‘entidad’ y otras clases generales. Se han corregido, asimismo, restricciones sobre la clase ‘sustancia funcional’, así como los comentarios en las clases ‘diseño’ y ‘sustancia’.
+
+En 3.18, se ha eliminado el axioma subClassOf entre ‘sustancia funcional’ y ‘artefacto diseñado’, se ha creado una nueva sublcase de ‘sustancia funcional’, llamada ‘sustancia diseñada’, y se ha creado un axioma subClassOf entre ‘sustancia diseñada’ y ‘artefacto diseñado’.
+
+En 3.19, se ha eliminado el axioma de disyunción entre ‘concepto’ y ‘colección' (por la misma razón que se ha explicado en la versión 3.15).
+
+En 3.20, se ha revisado el comentario de ‘cualidad’, se ha añadido ‘entidad de información’ como superclase de ‘objeto de información’ y ‘materialización de información’ (representada como la unión de estas clases). Esto es necesario en muchas ontologías de dominio que no necesitan distinguir entre los aspectos concretos y abstractos de las entidades de información. Una posible revisión (no implementada aquí) sería introducir las relaciones: ‘expresa’ y ‘es sobre’ con un dominio más amplio: ‘entidad de información’, y dos propiedades más específicas: ‘expresa abstractamente’ y ‘es abstractamente sobre’. Esta última versión no ha sido implementada todavía, puesto que un habría que llevarse a cabo un largo proceso de revisión para comprobar el impacto de la revisión sobre los plugins de  DOLCE-DnS-Ultralite existentes.
+
+En 3.21, se ha añadido un comentario a ‘entidad de información’, y se ha optimizado la representación de la equivalencia de ‘realización de información’.
+
+En 3.22., se ha añadido un comentario a ‘personificación’.
+
+En 3.23, se ha añadido la propiedad de objeto ‘asociado con’, y se han puesto todas las propiedades de objeto como subpropiedades suyas.
+
+En 3.24, se ha eliminado la propiedad de tipo de datos ‘tiene proxy’.
+
+En 3.25, se ha generalizado el dominio y el rango de ‘tiene componente’ y ‘es componente de’.
+
+En 3.26, se han actualizado algunos comentarios para clarificar o ejemplificar los conceptos.
+
+
+En 3.28, se ha ampliado el universo de pre-/pos-condiciones para dar cabida a eventos y estados.
+
+En 3.29, se han añadido algunas propiedades para proporcionar soporte al alineamiento de Dbpedia:   ‘el mismo escenario que’ (circunstancial análogo a coparticipación), incluyendo relaciones de proveniencia, por ejemplo, de parentesco compartido, propiedad, o relaciones en que se juega algún papel.
+
+En 3.30, se han completado algunos dominios y rangos (anteriormente, owl:Thing, now dul:Entity), y se ha añadido el axioma ‘organismo’ subClassOf ‘agente físico’.
+
+En 3.31, se ha añadido una restricción a ‘cualidad’ y otra a ‘región’ para asegurar que la restricción original de DOLCE de cualidades está siempre asociada con una región, y viceversa. Estos axiomas no excluyen, sin embargo, una aplicabilidad directa de cualidades o regiones obre cualquier otra entidad.
+
+En 3.4, el módulo principal de la ontología se ha traducido al español.", "license":"http://purl.org/NET/rdflicense/cc-by4.0", "author":[{"@type":"Person","name":"Aldo Gangemi (autor de la ontología original en inglés)"},{"@type":"Person","name":"Mariano Fernández-López (autor de la localización de la ontología en español)"}]}</script>
+
+<script src="resources/jquery.js"></script> 
+<script src="resources/marked.min.js"></script> 
+    <script> 
+function loadHash() {
+  jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+	  $('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+}
+	loadTOC();
+}
+function loadTOC(){
+	//process toc dynamically
+	  var t='<h2>Table of contents</h2><ul>';i = 1;j=0;
+	  jQuery(".list").each(function(){
+		if(jQuery(this).is('h2')){
+			if(j>0){
+				t+='</ul>';
+				j=0;
+			}
+			t+= '<li>'+i+'. <a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
+			i++;
+		}
+		if(jQuery(this).is('h3')){
+			if(j==0){
+				t+='<ul>';
+			}
+			j++;
+			t+= '<li>'+(i-1)+'.'+j+'. '+'<a href=#'+ jQuery(this).attr('id')+'>'+ jQuery(this).text()+'</a></li>';
+		}
+		t = t.replace(' back to ToC','');
+	  });
+	  t+='</ul>';
+	  $("#toc").html(t); 
+}
+    $(function(){
+      $("#abstract").load("sections/abstract-en.html"); 
+      $("#introduction").load("sections/introduction-en.html"); 
+      $("#overview").load("sections/overview-en.html"); 
+      $("#description").load("sections/description-en.html"); 
+      $("#references").load("sections/references-en.html"); 
+      $("#crossref").load("sections/crossref-en.html", null, loadHash); 
+    });
+    </script> 
+  </head> 
+
+<body>
+<div class="container"><div class="head">
+<div style="float:right">language <a href="index-en.html"><b>en</b></a> </div>
+<h1>La ontología DOLCE+DnS Ultralite con DOLCE-Zero</h1>
+<dt>Revision:</dt>
+<dd>En 3.2, los enlaces entre las instancias de ‘región’ o ‘parámetro’ y sus tipos de datos han sido revisados y hecho más potentes, con el propósito de respaldar patrones de diseño para valores de datos que se modelan en OWL 1.0.
+También, los nombres de las propiedades relacionadas han sido cambiados para hacerlos más intuitivos. Asimismo, se ha añadido un campo de comentario de gran tamaño a la propiedad de objeto ‘expresa’, con el propósito de clarificar algunas cuestiones sobre sus muchas interpretaciones.
+
+En 3.3, se ha mejorado la relación entre regiones, parámetros, y tipos de datos.
+
+En 3.5, se han refactorizado las clases relacionadas con personas: ‘persona’ en 3.4 es ahora ‘persona social’, para evitar la confusión con la intuición de sentido común; ‘persona’ es ahora la unión de personas sociales y humanos, siendo, por tanto, subclase de ‘agente’.
+
+En 3.6, se han realizado otras correcciones sobre la restricción universal que involucra ‘expresa’. También se ha añadido la propiedad ‘es restricción de’ entre parámetros y entidades. Se han movido propiedades ‘asume’ y ‘adopta’ a un nuevo módulo:  http://www.ontologydesignpatterns.org/ont/dul/Conceptualization.owl.
+
+En 3,7, se han corregido algunos nombres de clases y propiedades relacionados con ‘entidad formal’; se ha creado un nuevo módulo separado para restricciones universales generales (DULGCI.owl).
+
+En 3.8, se han realizado más correcciones en la interfaz con las entidades formales y los enlaces a IOLite.owl.
+
+En 3.9, se han corregido algunos nombres y comentarios.
+
+En 3.10, se ha eliminado la restricción de cardinalidad de ‘tiene parte’ y ‘es parte de’, para que haya compatibilidad con OWL(DL). Además, éstas relaciones se han cambiado a ‘tiene componente’ y ‘es componente de’. También se ha aumentado el rango de ‘incluye agente’ para contener tanto agentes físicos como sociales, y de la restricción universal de ‘conceptualiza’ sobre ‘agentes’, para incluir todos los objetos sociales.
+
+En 3.11, se ha introducido algún axioma más subpropiedad, y todos los elementos tienen etiqueta en inglés.
+
+En 3.12, se han añadido clases para establecer correspondencias con algunas clases antiguas que habían sido utilizadas para el alineamiento con OntoWordNet.
+
+En 3.13, se ha añadido la clase ‘concepto local’ para expresar un concepto que no se puede utilizar en una ‘descripción’ diferente de la que lo define. También se han actualizado algunos comentarios.
+
+En 3.14, se han añadido algunos comentarios.
+
+
+En 3.16, el nombre de ‘es actuado por’ se ha cambiado por ‘actúa a través de’, que es más claro. También se ha añadido ‘región espacio temporal’ constituida por ‘región espacial’ e ‘intervalo de tiempo’.
+
+En 3.17, se han eliminado los axiomas universales redundantes de ‘entidad’ y otras clases generales. Se han corregido, asimismo, restricciones sobre la clase ‘sustancia funcional’, así como los comentarios en las clases ‘diseño’ y ‘sustancia’.
+
+En 3.18, se ha eliminado el axioma subClassOf entre ‘sustancia funcional’ y ‘artefacto diseñado’, se ha creado una nueva sublcase de ‘sustancia funcional’, llamada ‘sustancia diseñada’, y se ha creado un axioma subClassOf entre ‘sustancia diseñada’ y ‘artefacto diseñado’.
+
+En 3.19, se ha eliminado el axioma de disyunción entre ‘concepto’ y ‘colección' (por la misma razón que se ha explicado en la versión 3.15).
+
+En 3.20, se ha revisado el comentario de ‘cualidad’, se ha añadido ‘entidad de información’ como superclase de ‘objeto de información’ y ‘materialización de información’ (representada como la unión de estas clases). Esto es necesario en muchas ontologías de dominio que no necesitan distinguir entre los aspectos concretos y abstractos de las entidades de información. Una posible revisión (no implementada aquí) sería introducir las relaciones: ‘expresa’ y ‘es sobre’ con un dominio más amplio: ‘entidad de información’, y dos propiedades más específicas: ‘expresa abstractamente’ y ‘es abstractamente sobre’. Esta última versión no ha sido implementada todavía, puesto que un habría que llevarse a cabo un largo proceso de revisión para comprobar el impacto de la revisión sobre los plugins de  DOLCE-DnS-Ultralite existentes.
+
+En 3.21, se ha añadido un comentario a ‘entidad de información’, y se ha optimizado la representación de la equivalencia de ‘realización de información’.
+
+En 3.22., se ha añadido un comentario a ‘personificación’.
+
+En 3.23, se ha añadido la propiedad de objeto ‘asociado con’, y se han puesto todas las propiedades de objeto como subpropiedades suyas.
+
+En 3.24, se ha eliminado la propiedad de tipo de datos ‘tiene proxy’.
+
+En 3.25, se ha generalizado el dominio y el rango de ‘tiene componente’ y ‘es componente de’.
+
+En 3.26, se han actualizado algunos comentarios para clarificar o ejemplificar los conceptos.
+
+
+En 3.28, se ha ampliado el universo de pre-/pos-condiciones para dar cabida a eventos y estados.
+
+En 3.29, se han añadido algunas propiedades para proporcionar soporte al alineamiento de Dbpedia:   ‘el mismo escenario que’ (circunstancial análogo a coparticipación), incluyendo relaciones de proveniencia, por ejemplo, de parentesco compartido, propiedad, o relaciones en que se juega algún papel.
+
+En 3.30, se han completado algunos dominios y rangos (anteriormente, owl:Thing, now dul:Entity), y se ha añadido el axioma ‘organismo’ subClassOf ‘agente físico’.
+
+En 3.31, se ha añadido una restricción a ‘cualidad’ y otra a ‘región’ para asegurar que la restricción original de DOLCE de cualidades está siempre asociada con una región, y viceversa. Estos axiomas no excluyen, sin embargo, una aplicabilidad directa de cualidades o regiones obre cualquier otra entidad.
+
+En 3.4, el módulo principal de la ontología se ha traducido al español.</dd>
+<dl><dt>Authors:</dt>
+<dd>Aldo Gangemi (autor de la ontología original en inglés)</dd><dd>Mariano Fernández-López (autor de la localización de la ontología en español)</dd></dl>
+
+<dl><dt>Imported Ontologies:</dt>
+<dd><a href="http://www.ontologydesignpatterns.org/ont/d0.owl">d0.owl</a></dd><dd><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl">DUL.owl</a></dd></dl>
+
+<dl><dt>Download serialization:</dt><dd><span><a href="ontology.xml" target="_blank"><img src="https://img.shields.io/badge/Format-RDF/XML-blue.svg" alt="RDF/XML"></img></a> </span><span><a href="ontology.nt" target="_blank"><img src="https://img.shields.io/badge/Format-N_Triples-blue.svg" alt="N-Triples"></img></a> </span><span><a href="ontology.ttl" target="_blank"><img src="https://img.shields.io/badge/Format-TTL-blue.svg" alt="TTL"></img></a> </span></dd></dl><dl><dt>License: </dt><dd><a href="http://purl.org/NET/rdflicense/cc-by4.0" target="_blank"><img src ="https://img.shields.io/badge/License-license name goes here-blue.svg" alt="http://purl.org/NET/rdflicense/cc-by4.0"></img></a>
+</dd></dl><dl><a href="provenance/provenance-en.html" target="_blank">Provenance of this page</a></dl><hr/>
+</div>
+<div class="status">
+<div>
+<span>Ontology Specification Draft</span>
+</div>
+</div>     <div id="abstract"></div>
+<div id="toc"></div>     <div id="introduction"></div>
+     <div id="overview"></div>
+     <div id="description"></div>
+     <div id="crossref"></div>
+     <div id="references"></div>
+<div id="acknowledgements">
+<h2 id="ack" class="list">Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>
+The authors would like to thank <a href="http://www.essepuntato.it/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a> for developing <a href="https://github.com/dgarijo/Widoco">Widoco</a>, the program used to create the template used in this documentation.</p>
+</div>
+</body> 
+</html>
