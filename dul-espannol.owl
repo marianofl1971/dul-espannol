@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<!--Comentario para OnToology-->
 <rdf:RDF xmlns="https://w3id.org/def/dul-espannol#"
      xml:base="https://w3id.org/def/dul-espannol"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
