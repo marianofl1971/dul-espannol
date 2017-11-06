@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>La ontología DOLCE+DnS Ultralite con DOLCE-Zero</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evaluation of the ontology with the OOPS tool.">
+    <meta name="Languaje" content="English">
+    
+    <script src="evaluation/jquery-1.11.0.js"></script>
+    <script src="evaluation/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="evaluation/style.css" type="text/css" media="print, projection, screen" />
+    <script type="text/javascript" src="evaluation/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" id="js">
+	    $(document).ready(function() 
+		    { 
+		    	$("#tablesorter-demo").tablesorter(); 
+		    	$('.collapse').collapse({ 
+		    	toggle: false
+		    	});
+		    } 
+	    ); 
+    </script>
+
+    <link href="evaluation/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="evaluation/bootstrap-responsive.css" rel="stylesheet">
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/dist/js/html5shiv.js"></script>
+    <![endif]-->
+
+  </head>
+<div class="container">
+<h1> <a href="https://w3id.org/def/dul-espannol" target="_blank">La ontología DOLCE+DnS Ultralite con DOLCE-Zero</a></h1>
+<br>
+<dl class="dl-horizontal">
+<dt>Title</dt>
+<dd><a href="https://w3id.org/def/dul-espannol" target="_blank">La ontología DOLCE+DnS Ultralite con DOLCE-Zero</a></dd>
+<dt>URI</dt>
+<dd><a href="https://w3id.org/def/dul-espannol" target="_blank">https://w3id.org/def/dul-espannol</a></dd>
+<dt>Version</dt>
+<dd>En 3.2, los enlaces entre las instancias de ‘región’ o ‘parámetro’ y sus tipos de datos han sido revisados y hecho más potentes, con el propósito de respaldar patrones de diseño para valores de datos que se modelan en OWL 1.0.
+También, los nombres de las propiedades relacionadas han sido cambiados para hacerlos más intuitivos. Asimismo, se ha añadido un campo de comentario de gran tamaño a la propiedad de objeto ‘expresa’, con el propósito de clarificar algunas cuestiones sobre sus muchas interpretaciones.
+
+En 3.3, se ha mejorado la relación entre regiones, parámetros, y tipos de datos.
+
+En 3.5, se han refactorizado las clases relacionadas con personas: ‘persona’ en 3.4 es ahora ‘persona social’, para evitar la confusión con la intuición de sentido común; ‘persona’ es ahora la unión de personas sociales y humanos, siendo, por tanto, subclase de ‘agente’.
+
+En 3.6, se han realizado otras correcciones sobre la restricción universal que involucra ‘expresa’. También se ha añadido la propiedad ‘es restricción de’ entre parámetros y entidades. Se han movido propiedades ‘asume’ y ‘adopta’ a un nuevo módulo:  http://www.ontologydesignpatterns.org/ont/dul/Conceptualization.owl.
+
+En 3,7, se han corregido algunos nombres de clases y propiedades relacionados con ‘entidad formal’; se ha creado un nuevo módulo separado para restricciones universales generales (DULGCI.owl).
+
+En 3.8, se han realizado más correcciones en la interfaz con las entidades formales y los enlaces a IOLite.owl.
+
+En 3.9, se han corregido algunos nombres y comentarios.
+
+En 3.10, se ha eliminado la restricción de cardinalidad de ‘tiene parte’ y ‘es parte de’, para que haya compatibilidad con OWL(DL). Además, éstas relaciones se han cambiado a ‘tiene componente’ y ‘es componente de’. También se ha aumentado el rango de ‘incluye agente’ para contener tanto agentes físicos como sociales, y de la restricción universal de ‘conceptualiza’ sobre ‘agentes’, para incluir todos los objetos sociales.
+
+En 3.11, se ha introducido algún axioma más subpropiedad, y todos los elementos tienen etiqueta en inglés.
+
+En 3.12, se han añadido clases para establecer correspondencias con algunas clases antiguas que habían sido utilizadas para el alineamiento con OntoWordNet.
+
+En 3.13, se ha añadido la clase ‘concepto local’ para expresar un concepto que no se puede utilizar en una ‘descripción’ diferente de la que lo define. También se han actualizado algunos comentarios.
+
+En 3.14, se han añadido algunos comentarios.
+
+
+En 3.16, el nombre de ‘es actuado por’ se ha cambiado por ‘actúa a través de’, que es más claro. También se ha añadido ‘región espacio temporal’ constituida por ‘región espacial’ e ‘intervalo de tiempo’.
+
+En 3.17, se han eliminado los axiomas universales redundantes de ‘entidad’ y otras clases generales. Se han corregido, asimismo, restricciones sobre la clase ‘sustancia funcional’, así como los comentarios en las clases ‘diseño’ y ‘sustancia’.
+
+En 3.18, se ha eliminado el axioma subClassOf entre ‘sustancia funcional’ y ‘artefacto diseñado’, se ha creado una nueva sublcase de ‘sustancia funcional’, llamada ‘sustancia diseñada’, y se ha creado un axioma subClassOf entre ‘sustancia diseñada’ y ‘artefacto diseñado’.
+
+En 3.19, se ha eliminado el axioma de disyunción entre ‘concepto’ y ‘colección' (por la misma razón que se ha explicado en la versión 3.15).
+
+En 3.20, se ha revisado el comentario de ‘cualidad’, se ha añadido ‘entidad de información’ como superclase de ‘objeto de información’ y ‘materialización de información’ (representada como la unión de estas clases). Esto es necesario en muchas ontologías de dominio que no necesitan distinguir entre los aspectos concretos y abstractos de las entidades de información. Una posible revisión (no implementada aquí) sería introducir las relaciones: ‘expresa’ y ‘es sobre’ con un dominio más amplio: ‘entidad de información’, y dos propiedades más específicas: ‘expresa abstractamente’ y ‘es abstractamente sobre’. Esta última versión no ha sido implementada todavía, puesto que un habría que llevarse a cabo un largo proceso de revisión para comprobar el impacto de la revisión sobre los plugins de  DOLCE-DnS-Ultralite existentes.
+
+En 3.21, se ha añadido un comentario a ‘entidad de información’, y se ha optimizado la representación de la equivalencia de ‘realización de información’.
+
+En 3.22., se ha añadido un comentario a ‘personificación’.
+
+En 3.23, se ha añadido la propiedad de objeto ‘asociado con’, y se han puesto todas las propiedades de objeto como subpropiedades suyas.
+
+En 3.24, se ha eliminado la propiedad de tipo de datos ‘tiene proxy’.
+
+En 3.25, se ha generalizado el dominio y el rango de ‘tiene componente’ y ‘es componente de’.
+
+En 3.26, se han actualizado algunos comentarios para clarificar o ejemplificar los conceptos.
+
+
+En 3.28, se ha ampliado el universo de pre-/pos-condiciones para dar cabida a eventos y estados.
+
+En 3.29, se han añadido algunas propiedades para proporcionar soporte al alineamiento de Dbpedia:   ‘el mismo escenario que’ (circunstancial análogo a coparticipación), incluyendo relaciones de proveniencia, por ejemplo, de parentesco compartido, propiedad, o relaciones en que se juega algún papel.
+
+En 3.30, se han completado algunos dominios y rangos (anteriormente, owl:Thing, now dul:Entity), y se ha añadido el axioma ‘organismo’ subClassOf ‘agente físico’.
+
+En 3.31, se ha añadido una restricción a ‘cualidad’ y otra a ‘región’ para asegurar que la restricción original de DOLCE de cualidades está siempre asociada con una región, y viceversa. Estos axiomas no excluyen, sin embargo, una aplicabilidad directa de cualidades o regiones obre cualquier otra entidad.
+
+En 3.4, el módulo principal de la ontología se ha traducido al español.</dd>
+</dl><p> The following evaluation results have been generated by the <a href = "http://oops-ws.oeg-upm.net/" target="_blank">RESTFul web service</a> provided by <a href = "http://oops.linkeddata.es" target="_blank">OOPS! (OntOlogy Pitfall Scanner!)</a>.</p><p>
+<a href="http://oops.linkeddata.es" target="_blank"><img src="http://vocab.linkeddata.es/ontologies/oops/logomini.png" alt="OOPS! logo" class="img-rounded" class="img-responsive" /></a>It is obvious that not all the pitfalls are equally important; their impact in the ontology will depend on multiple factors. For this reason, each pitfall has an importance level attached indicating how important it is. We have identified three levels:</p>
+
+<dl class="dl-horizontal">
+<dt><span class="label label-danger">Critical</span></dt>
+<dd>It is crucial to correct the pitfall. Otherwise, it could affect the ontology consistency, reasoning, applicability, etc.</dd>
+
+<dt><span class="label label-warning">Important</span></dt> <dd> Though not critical for ontology function, it is important to correct this type of pitfall.</dd>
+
+<dt><span class="label label-minor">Minor</span></dt> <dd>It is not really a problem, but by correcting it we will make the ontology nicer.</dd>
+</dl><h2>Evaluation results</h2>
+<div class="panel-group" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse0">
+P08. Missing annotations<span style="float: right;">15 cases detected. <span class="label label-minor">Minor</span></span></a>
+</h4>
+</div>
+<div id="collapse0" class="panel-collapse collapse">
+<div class="panel-body">
+<p>This pitfall consists in creating an ontology element and failing to provide human readable annotations attached to it. Consequently, ontology elements lack annotation properties that label them (e.g. rdfs:label, lemon:LexicalEntry, skos:prefLabel or skos:altLabel) or that define them (e.g. rdfs:comment or dc:description). This pitfall is related to the guidelines provided in [5].	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentIncludedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentIncludedIn</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#WorkflowExecution" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#WorkflowExecution</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Community" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Community</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Narrative" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Narrative</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObjectIncludedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObjectIncludedIn</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isCharacterizedBy" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isCharacterizedBy</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeIncludedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeIncludedIn</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isActionIncludedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isActionIncludedIn</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpatioTemporalRegion" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpatioTemporalRegion</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isEventIncludedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isEventIncludedIn</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Set" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Set</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse1">
+P11. Missing domain or range in properties<span style="float: right;">3 cases detected. <span class="label label-warning">Important</span></span></a>
+</h4>
+</div>
+<div id="collapse1" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Object and/or datatype properties without domain or range (or none of them) are included in the ontology. 	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameterDataValue" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameterDataValue</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse2">
+P20. Misusing ontology annotations<span style="float: right;">1 case detected. <span class="label label-minor">Minor</span></span></a>
+</h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse">
+<div class="panel-body">
+<p>The contents of some annotation properties are swapped or misused. This pitfall might affect annotation properties related to natural language information (for example, annotations for naming such as rdfs:label or for providing descriptions such as rdfs:comment). Other types of annotation could also be affected as temporal, versioning information, among others.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentInvolvedIn" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentInvolvedIn</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse3">
+P24. Using recursive definitions<span style="float: right;">20 cases detected. <span class="label label-warning">Important</span></span></a>
+</h4>
+</div>
+<div id="collapse3" class="panel-collapse collapse">
+<div class="panel-body">
+<p>An ontology element (a class, an object property or a datatype property) is used in its own definition. Some examples of this would be: (a) the definition of a class as the enumeration of several classes including itself;  (b) the appearance of a class within its owl:equivalentClass or rdfs:subClassOf axioms; (c) the appearance of an object property in its rdfs:domain or range rdfs:range definitions; or (d) the appearance of a datatype property in its rdfs:domain definition.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse4">
+P25. Defining a relationship as inverse to itself<span style="float: right;">9 cases detected. <span class="label label-warning">Important</span></span></a>
+</h4>
+</div>
+<div id="collapse4" class="panel-collapse collapse">
+<div class="panel-body">
+<p>A relationship is defined as inverse of itself. In this case, this relationship could have been defined as owl:SymmetricProperty instead.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse5">
+P26. Defining inverse relationships for a symmetric one<span style="float: right;">9 cases detected. <span class="label label-warning">Important</span></span></a>
+</h4>
+</div>
+<div id="collapse5" class="panel-collapse collapse">
+<div class="panel-body">
+<p>A symmetric object property (owl:SymmetricProperty) is defined as inverse of another object property (using owl:inverseOf).	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo</a></li></ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse6">
+P30. Equivalent classes not explicitly declared<span style="float: right;">6 cases detected. <span class="label label-warning">Important</span></span></a>
+</h4>
+</div>
+<div id="collapse6" class="panel-collapse collapse">
+<div class="panel-body">
+<p>This pitfall consists in missing the definition of equivalent classes (owl:equivalentClass) in case of duplicated concepts. When an ontology reuses terms from other ontologies, classes that have the same meaning should be defined as equivalent in order to benefit the interoperability between both ontologies.	</p><p>This pitfall affects to the following ontology elements: </p><ul><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Project" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Project</a> , <a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organization" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organization</a> , <a href="http://www.ontologydesignpatterns.org/ont/d0.owl#System" target="_blank">http://www.ontologydesignpatterns.org/ont/d0.owl#System</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Design" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Design</a> , <a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pattern" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pattern</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation</a> , <a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Design" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Design</a> , <a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan</a></li><li><a href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action" target="_blank">http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action</a> , <a href="http://www.ontologydesignpatterns.org/ont/d0.owl#Activity" target="_blank">http://www.ontologydesignpatterns.org/ont/d0.owl#Activity</a></li><ul></div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" href="#collapse7">
+P32. Several classes with the same label<span style="float: right;">1 case detected. <span class="label label-minor">Minor</span></span></a>
+</h4>
+</div>
+<div id="collapse7" class="panel-collapse collapse">
+<div class="panel-body">
+<p>Two or more classes have the same content for natural language annotations for naming, for example the rdfs:label annotation. This pitfall might involve lack of accuracy when defining terms.	</p><p>This pitfall affects to the following ontology elements: </p><ul><ul></div>
+</div>
+</div>
+</div>
+<p>References:</p>
+    <ul>
+    <li>
+    [1] G&oacute;mez-P&oacute;rez, A. Ontology Evaluation. Handbook on Ontologies. S. Staab and R. Studer Editors. Springer. International Handbooks on Information Systems. Pp: 251-274. 2004.
+    </li> 
+    <li>
+    [2] Noy, N.F., McGuinness. D. L. Ontology development 101: A guide to creating your first ontology. Technical Report SMI-2001-0880, Standford Medical Informatics. 2001.
+    </li> 
+    <li>
+    [3] Rector, A., Drummond, N., Horridge, M., Rogers, J., Knublauch, H., Stevens, R.,; Wang, H., Wroe, C. ''Owl pizzas: Practical experience of teaching owl-dl: Common errors and common patterns''. In Proc. of EKAW 2004, pp: 63-81. Springer. 2004.
+    </li>
+    <li>
+    [4] Hogan, A., Harth, A., Passant, A., Decker, S., Polleres, A. Weaving the Pedantic Web. Linked Data on the Web Workshop LDOW2010 at WWW2010 (2010).
+    </li>
+     <li>
+    [5] Archer, P., Goedertier, S., and Loutas, N. D7.1.3 - Study on persistent URIs, with identification of best practices and recommendations on the topic for the MSs and the EC. Deliverable. December 17, 2012.
+    </li>
+    <li>
+    [6] Heath, T., Bizer, C.: Linked data: Evolving the Web into a global data space (1st edition). Morgan &amp; Claypool (2011).
+    </li>
+    </ul>
+<footer>
+            <div class="row">
+    	<div class="col-md-7">
+    		Developed by 	        <a href = "http://delicias.dia.fi.upm.es/members/mpoveda/" target="_blank">Mar&iacutea Poveda</a>
+	        <br>
+    	Built with <a target="_blank" href="http://getbootstrap.com/">Bootstrap</a>
+	        <br>
+           Integration with Widoco by <a href="https://w3id.org/people/dgarijo">Daniel Garijo</a>	        <br>
+        </div>
+    	<div class="col-md-5">
+		<p class="text-right"> Developed with: </p>
+		<p class="text-right">
+     		<a href="http://oops.linkeddata.es" target="_blank"><img src="http://vocab.linkeddata.es/ontologies/oops/logomini.png" alt="OOPS! logo" class="img-rounded" class="img-responsive" /></a>
+    	</p>
+    	</div>
+      </div>
+      </footer>
+    </div> <!-- /container -->
