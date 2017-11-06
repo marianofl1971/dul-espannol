@@ -1,0 +1,150 @@
+@prefix : <http://www.ontologydesignpatterns.org/ont/d0.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+
+<http://www.ontologydesignpatterns.org/ont/d0.owl> rdf:type owl:Ontology ;
+                                                    owl:imports <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
+                                                    rdfs:comment "A supplementary ontology used as a generalization of DOLCE+DnS Ultralite (DUL), in order to deal with the systematic polysemy of many lexical items, whose senses create problems when used as OWL classes. For example, it's customary to find lexical items that carry both a sense of physical or abstract location, of event or event type, etc."^^xsd:string ;
+                                                    owl:versionInfo "1.2 - added Eventuality, and subclass axioms to close all classes under dul:Entity"^^xsd:string .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Activity
+:Activity rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action>
+                                              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task>
+                                            )
+                              ] ;
+          rdfs:comment "Any action or task planned or executed by an agent intentionally causing and participating in it.	E.g. swimming, shopping, knowledge sharing, etc."^^xsd:string ;
+          rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+          rdfs:label "activity"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic
+:Characteristic rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Class ;
+                                      owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter>
+                                                    <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality>
+                                                    <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region>
+                                                  )
+                                    ] ;
+                rdfs:comment "An aspect or quality of a thing. E.g. radial symmetry, poker face, alkalinity, attractiveness, darkness, etc."^^xsd:string ;
+                rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+                rdfs:label "characteristic"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity
+:CognitiveEntity rdf:type owl:Class ;
+                 rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ,
+                                 owl:Thing ;
+                 rdfs:comment "Attitudes, cognitive abilities, ideologies, psychological phenomena, mind, etc. E.g. discernment, homophobia, precognition, etc."^^xsd:string ;
+                 rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+                 rdfs:label "cognitive entity"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Event
+:Event rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Class ;
+                             owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>
+                                           <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType>
+                                         )
+                           ] ;
+       rdfs:subClassOf owl:Thing ;
+       rdfs:comment "Any natural event, independently of its possible causes. E.g. avalanche, earthquake, brainwave, bonfire, etc."^^xsd:string ;
+       rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+       rdfs:label "event"@en ,
+                  "natural event"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality
+:Eventuality rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Class ;
+                                   owl:unionOf ( :Event
+                                                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation>
+                                               )
+                                 ] ;
+             rdfs:comment "Any event, situation, activity, event type, etc. Used to abstract from formal criteria that distinguish between event occurrences, their types, and constructed objects (situations, tropes, qua-entities) that provide a setting for multiple entities."^^xsd:string ;
+             rdfs:isDefinedBy "http://www.ontologydesignpatterns.org/ont/d0.owl"^^xsd:string ;
+             rdfs:label "accadimento"@it ,
+                        "eventuality"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+:Location rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace>
+                                              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place>
+                                              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion>
+                                            )
+                              ] ;
+          rdfs:comment "A location, in a very generic sense e.g. geo-political entities, or physical object that are inherently located. E.g. Oslo, Australia, Inner Mongolia, resort area, intergalactic space, tundra, tunnel, etc."^^xsd:string ;
+          rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+          rdfs:label "location"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#System
+:System rdf:type owl:Class ;
+        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ,
+                        owl:Thing ;
+        rdfs:comment "Physical, social, political systems.	 viticulture, non-linear system, democracy, water system, etc. E.g. viticulture, non-linear system, democracy, water system, etc."^^xsd:string ;
+        rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+        rdfs:label "system"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/d0.owl#Topic
+:Topic rdf:type owl:Class ;
+       rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ,
+                       owl:Thing ;
+       rdfs:comment "Any area, discipline, subject of knowledge. E.g. algebra, avionics, ballet, theology, engineering, etc."^^xsd:string ;
+       rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/d0.owl> ;
+       rdfs:label "topic"@en .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action> rdfs:subClassOf :Activity .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> rdfs:subClassOf :Event .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType> rdfs:subClassOf :Event .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> rdfs:subClassOf :Characteristic .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace> rdfs:subClassOf :Location .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> rdfs:subClassOf :Location .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality> rdfs:subClassOf :Characteristic .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region> rdfs:subClassOf :Characteristic .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion> rdfs:subClassOf :Location .
+
+
+###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> rdfs:subClassOf :Activity .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

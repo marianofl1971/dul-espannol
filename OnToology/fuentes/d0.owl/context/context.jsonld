@@ -1,0 +1,76 @@
+{
+  "@context" : {
+    "Situation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "SpaceRegion" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Location" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#Location"
+    },
+    "Activity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#Activity"
+    },
+    "Event" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"
+    },
+    "EventType" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType"
+    },
+    "PhysicalPlace" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"
+    },
+    "Topic" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#Topic"
+    },
+    "Quality" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"
+    },
+    "Characteristic" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic"
+    },
+    "Place" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Parameter" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter"
+    },
+    "Entity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "System" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#System"
+    },
+    "Action" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+    },
+    "CognitiveEntity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity"
+    },
+    "Region" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region"
+    },
+    "Task" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task"
+    },
+    "Eventuality" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality"
+    }
+  }
+}

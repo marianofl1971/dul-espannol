@@ -1,0 +1,689 @@
+{
+  "@context" : {
+    "isDefinedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDefinedIn",
+      "@type" : "@id"
+    },
+    "Diagnosis" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Diagnosis"
+    },
+    "unifies" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#unifies",
+      "@type" : "@id"
+    },
+    "Design" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Design"
+    },
+    "isExecutedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExecutedIn",
+      "@type" : "@id"
+    },
+    "farFrom" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#farFrom",
+      "@type" : "@id"
+    },
+    "Situation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation"
+    },
+    "UnitOfMeasure" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#UnitOfMeasure"
+    },
+    "InformationObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"
+    },
+    "isTaskOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTaskOf",
+      "@type" : "@id"
+    },
+    "hasConstituent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "isParametrizedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParametrizedBy",
+      "@type" : "@id"
+    },
+    "includesAgent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesAgent",
+      "@type" : "@id"
+    },
+    "specializes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#specializes",
+      "@type" : "@id"
+    },
+    "isRelatedToConcept" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept",
+      "@type" : "@id"
+    },
+    "Amount" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Amount"
+    },
+    "SocialAgent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialAgent"
+    },
+    "isConcretelyExpressedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConcretelyExpressedBy",
+      "@type" : "@id"
+    },
+    "Organism" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organism"
+    },
+    "describes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#describes",
+      "@type" : "@id"
+    },
+    "parametrizes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#parametrizes",
+      "@type" : "@id"
+    },
+    "isSettingFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSettingFor",
+      "@type" : "@id"
+    },
+    "WorkflowExecution" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#WorkflowExecution"
+    },
+    "isLocationOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isLocationOf",
+      "@type" : "@id"
+    },
+    "TypeCollection" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TypeCollection"
+    },
+    "Organization" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organization"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "isTaskDefinedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTaskDefinedIn",
+      "@type" : "@id"
+    },
+    "includesEvent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesEvent",
+      "@type" : "@id"
+    },
+    "SocialObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject"
+    },
+    "isPostconditionOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPostconditionOf",
+      "@type" : "@id"
+    },
+    "isTimeOfObservationOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeOfObservationOf",
+      "@type" : "@id"
+    },
+    "Transition" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Transition"
+    },
+    "PhysicalBody" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalBody"
+    },
+    "isReferenceOfInformationRealizedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isReferenceOfInformationRealizedBy",
+      "@type" : "@id"
+    },
+    "hasRegionDataValue" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue"
+    },
+    "precedes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#precedes",
+      "@type" : "@id"
+    },
+    "Object" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"
+    },
+    "isClassifiedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isClassifiedBy",
+      "@type" : "@id"
+    },
+    "InformationRealization" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationRealization"
+    },
+    "isConceptExpressedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConceptExpressedBy",
+      "@type" : "@id"
+    },
+    "isTimeIncludedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeIncludedIn",
+      "@type" : "@id"
+    },
+    "includesAction" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesAction",
+      "@type" : "@id"
+    },
+    "hasEventDate" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasEventDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "realizesInformationAbout" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#realizesInformationAbout",
+      "@type" : "@id"
+    },
+    "FunctionalSubstance" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance"
+    },
+    "hasRole" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRole",
+      "@type" : "@id"
+    },
+    "Community" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Community"
+    },
+    "SpaceRegion" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion"
+    },
+    "hasDataValue" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue"
+    },
+    "concretelyExpresses" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#concretelyExpresses",
+      "@type" : "@id"
+    },
+    "isObjectIncludedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObjectIncludedIn",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "PhysicalArtifact" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact"
+    },
+    "isPartOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPartOf",
+      "@type" : "@id"
+    },
+    "characterizes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#characterizes",
+      "@type" : "@id"
+    },
+    "hasPart" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept"
+    },
+    "Contract" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Contract"
+    },
+    "sameSettingAs" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#sameSettingAs",
+      "@type" : "@id"
+    },
+    "LocalConcept" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#LocalConcept"
+    },
+    "isConstituentOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConstituentOf",
+      "@type" : "@id"
+    },
+    "usesConcept" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#usesConcept",
+      "@type" : "@id"
+    },
+    "isReferenceOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isReferenceOf",
+      "@type" : "@id"
+    },
+    "NaturalPerson" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"
+    },
+    "SocialObjectAttribute" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObjectAttribute"
+    },
+    "isConceptUsedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConceptUsedIn",
+      "@type" : "@id"
+    },
+    "introduces" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#introduces",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"
+    },
+    "follows" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#follows",
+      "@type" : "@id"
+    },
+    "isTimeIntervalOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isTimeIntervalOf",
+      "@type" : "@id"
+    },
+    "actsThrough" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#actsThrough",
+      "@type" : "@id"
+    },
+    "overlaps" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#overlaps",
+      "@type" : "@id"
+    },
+    "hasIntervalDate" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasIntervalDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "isConceptualizedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConceptualizedBy",
+      "@type" : "@id"
+    },
+    "Personification" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Personification"
+    },
+    "isMemberOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isMemberOf",
+      "@type" : "@id"
+    },
+    "EventType" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType"
+    },
+    "defines" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#defines",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person"
+    },
+    "PhysicalPlace" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"
+    },
+    "SocialPerson" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"
+    },
+    "isUnifiedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isUnifiedBy",
+      "@type" : "@id"
+    },
+    "hasPostcondition" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPostcondition",
+      "@type" : "@id"
+    },
+    "Relation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Relation"
+    },
+    "associatedWith" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith",
+      "@type" : "@id"
+    },
+    "hasTask" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTask",
+      "@type" : "@id"
+    },
+    "Quality" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality"
+    },
+    "Agent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"
+    },
+    "CollectiveAgent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CollectiveAgent"
+    },
+    "directlyFollows" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#directlyFollows",
+      "@type" : "@id"
+    },
+    "Pattern" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Pattern"
+    },
+    "expresses" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#expresses",
+      "@type" : "@id"
+    },
+    "SocialRelation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialRelation"
+    },
+    "Role" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role"
+    },
+    "isIntroducedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isIntroducedBy",
+      "@type" : "@id"
+    },
+    "expressesConcept" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#expressesConcept",
+      "@type" : "@id"
+    },
+    "InformationEntity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity"
+    },
+    "PlanExecution" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PlanExecution"
+    },
+    "hasMember" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasMember",
+      "@type" : "@id"
+    },
+    "isComponentOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isComponentOf",
+      "@type" : "@id"
+    },
+    "TimeInterval" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"
+    },
+    "isSpecializedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSpecializedBy",
+      "@type" : "@id"
+    },
+    "isSuperordinatedTo" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSuperordinatedTo",
+      "@type" : "@id"
+    },
+    "isRoleOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRoleOf",
+      "@type" : "@id"
+    },
+    "isAgentInvolvedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentInvolvedIn",
+      "@type" : "@id"
+    },
+    "FormalEntity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FormalEntity"
+    },
+    "involvesAgent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent",
+      "@type" : "@id"
+    },
+    "covers" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#covers",
+      "@type" : "@id"
+    },
+    "isExpandedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExpandedIn",
+      "@type" : "@id"
+    },
+    "isAbout" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAbout",
+      "@type" : "@id"
+    },
+    "Description" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"
+    },
+    "Method" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Method"
+    },
+    "isParticipantIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn",
+      "@type" : "@id"
+    },
+    "definesTask" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask",
+      "@type" : "@id"
+    },
+    "isActionIncludedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isActionIncludedIn",
+      "@type" : "@id"
+    },
+    "SpatioTemporalRegion" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpatioTemporalRegion"
+    },
+    "includesObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject",
+      "@type" : "@id"
+    },
+    "PhysicalAttribute" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute"
+    },
+    "hasQuality" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality",
+      "@type" : "@id"
+    },
+    "hasTimeInterval" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasTimeInterval",
+      "@type" : "@id"
+    },
+    "Goal" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"
+    },
+    "Plan" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan"
+    },
+    "Place" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place"
+    },
+    "Abstract" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Abstract"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Parameter" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter"
+    },
+    "hasCommonBoundary" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasCommonBoundary",
+      "@type" : "@id"
+    },
+    "Workflow" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow"
+    },
+    "classifies" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#classifies",
+      "@type" : "@id"
+    },
+    "coparticipatesWith" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#coparticipatesWith",
+      "@type" : "@id"
+    },
+    "Project" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Project"
+    },
+    "hasConstraint" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstraint",
+      "@type" : "@id"
+    },
+    "Norm" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm"
+    },
+    "PhysicalAgent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent"
+    },
+    "Classification" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Classification"
+    },
+    "Theory" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Theory"
+    },
+    "hasParticipant" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant",
+      "@type" : "@id"
+    },
+    "DesignedSubstance" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance"
+    },
+    "isExpressedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExpressedBy",
+      "@type" : "@id"
+    },
+    "nearTo" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#nearTo",
+      "@type" : "@id"
+    },
+    "BiologicalObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject"
+    },
+    "isPreconditionOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPreconditionOf",
+      "@type" : "@id"
+    },
+    "hasPrecondition" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPrecondition",
+      "@type" : "@id"
+    },
+    "isRealizedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRealizedBy",
+      "@type" : "@id"
+    },
+    "isObservableAt" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isObservableAt",
+      "@type" : "@id"
+    },
+    "isCharacterizedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isCharacterizedBy",
+      "@type" : "@id"
+    },
+    "hasParameter" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter",
+      "@type" : "@id"
+    },
+    "hasParameterDataValue" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameterDataValue"
+    },
+    "Entity" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity"
+    },
+    "isRegionFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRegionFor",
+      "@type" : "@id"
+    },
+    "Process" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Process"
+    },
+    "isQualityOf" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isQualityOf",
+      "@type" : "@id"
+    },
+    "DesignedArtifact" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact"
+    },
+    "Collective" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collective"
+    },
+    "isRelatedToDescription" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToDescription",
+      "@type" : "@id"
+    },
+    "includesTime" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesTime",
+      "@type" : "@id"
+    },
+    "expands" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#expands",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isRoleDefinedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRoleDefinedIn",
+      "@type" : "@id"
+    },
+    "directlyPrecedes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#directlyPrecedes",
+      "@type" : "@id"
+    },
+    "Group" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Group"
+    },
+    "isSubordinatedTo" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSubordinatedTo",
+      "@type" : "@id"
+    },
+    "hasSetting" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasSetting",
+      "@type" : "@id"
+    },
+    "definesRole" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesRole",
+      "@type" : "@id"
+    },
+    "isAgentIncludedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isAgentIncludedIn",
+      "@type" : "@id"
+    },
+    "hasComponent" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasComponent",
+      "@type" : "@id"
+    },
+    "isEventIncludedIn" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isEventIncludedIn",
+      "@type" : "@id"
+    },
+    "Right" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Right"
+    },
+    "actsFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#actsFor",
+      "@type" : "@id"
+    },
+    "isConstraintFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isConstraintFor",
+      "@type" : "@id"
+    },
+    "hasRegion" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion",
+      "@type" : "@id"
+    },
+    "Action" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"
+    },
+    "conceptualizes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#conceptualizes",
+      "@type" : "@id"
+    },
+    "Configuration" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Configuration"
+    },
+    "isSatisfiedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isSatisfiedBy",
+      "@type" : "@id"
+    },
+    "hasLocation" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation",
+      "@type" : "@id"
+    },
+    "Region" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region"
+    },
+    "executesTask" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask",
+      "@type" : "@id"
+    },
+    "Task" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task"
+    },
+    "Substance" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance"
+    },
+    "isParameterFor" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParameterFor",
+      "@type" : "@id"
+    },
+    "isCoveredBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isCoveredBy",
+      "@type" : "@id"
+    },
+    "PhysicalObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"
+    },
+    "isDescribedBy" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy",
+      "@type" : "@id"
+    },
+    "realizes" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#realizes",
+      "@type" : "@id"
+    },
+    "Narrative" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Narrative"
+    },
+    "Set" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Set"
+    },
+    "Collection" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Collection"
+    },
+    "ChemicalObject" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject"
+    },
+    "satisfies" : {
+      "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#satisfies",
+      "@type" : "@id"
+    }
+  }
+}
