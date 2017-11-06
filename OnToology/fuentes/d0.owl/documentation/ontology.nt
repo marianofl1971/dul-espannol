@@ -1,0 +1,152 @@
+<http://www.ontologydesignpatterns.org/ont/d0.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "A supplementary ontology used as a generalization of DOLCE+DnS Ultralite (DUL), in order to deal with the systematic polysemy of many lexical items, whose senses create problems when used as OWL classes. For example, it's customary to find lexical items that carry both a sense of physical or abstract location, of event or event type, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl> <http://www.w3.org/2002/07/owl#versionInfo> "1.2 - added Eventuality, and subclass axioms to close all classes under dul:Entity" .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Activity
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> <http://www.w3.org/2000/01/rdf-schema#comment> "Any action or task planned or executed by an agent intentionally causing and participating in it.\tE.g. swimming, shopping, knowledge sharing, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> <http://www.w3.org/2000/01/rdf-schema#label> "activity"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> <http://www.w3.org/2000/01/rdf-schema#comment> "An aspect or quality of a thing. E.g. radial symmetry, poker face, alkalinity, attractiveness, darkness, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> <http://www.w3.org/2000/01/rdf-schema#label> "characteristic"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/2000/01/rdf-schema#comment> "Attitudes, cognitive abilities, ideologies, psychological phenomena, mind, etc. E.g. discernment, homophobia, precognition, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#CognitiveEntity> <http://www.w3.org/2000/01/rdf-schema#label> "cognitive entity"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Event
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid8 <http://www.w3.org/2002/07/owl#unionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2000/01/rdf-schema#comment> "Any natural event, independently of its possible causes. E.g. avalanche, earthquake, brainwave, bonfire, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2000/01/rdf-schema#label> "event"@en .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Event> <http://www.w3.org/2000/01/rdf-schema#label> "natural event"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid11 <http://www.w3.org/2002/07/owl#unionOf> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/d0.owl#Event> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Situation> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/2000/01/rdf-schema#comment> "Any event, situation, activity, event type, etc. Used to abstract from formal criteria that distinguish between event occurrences, their types, and constructed objects (situations, tropes, qua-entities) that provide a setting for multiple entities." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://www.ontologydesignpatterns.org/ont/d0.owl" .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/2000/01/rdf-schema#label> "accadimento"@it .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Eventuality> <http://www.w3.org/2000/01/rdf-schema#label> "eventuality"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Location
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Location> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid14 <http://www.w3.org/2002/07/owl#unionOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "A location, in a very generic sense e.g. geo-political entities, or physical object that are inherently located. E.g. Oslo, Australia, Inner Mongolia, resort area, intergalactic space, tundra, tunnel, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Location> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Location> <http://www.w3.org/2000/01/rdf-schema#label> "location"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#System
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical, social, political systems.\t viticulture, non-linear system, democracy, water system, etc. E.g. viticulture, non-linear system, democracy, water system, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#System> <http://www.w3.org/2000/01/rdf-schema#label> "system"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/d0.owl#Topic
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/2000/01/rdf-schema#comment> "Any area, discipline, subject of knowledge. E.g. algebra, avionics, ballet, theology, engineering, etc." .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
+<http://www.ontologydesignpatterns.org/ont/d0.owl#Topic> <http://www.w3.org/2000/01/rdf-schema#label> "topic"@en .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Event> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#EventType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Event> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Location> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Location> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Characteristic> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SpaceRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Location> .
+# 
+# http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/d0.owl#Activity> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
