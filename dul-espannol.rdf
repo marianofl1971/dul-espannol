@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--Comentario para OnToology-->
-<rdf:RDF xmlns="https://w3id.org/def/dul-espannol#"
-     xml:base="https://w3id.org/def/dul-espannol"
+<rdf:RDF xmlns="https://w3id.org/def/dul-dolce-zero-espannol#"
+     xml:base="https://w3id.org/def/dul-dolce-zero-espannol"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -10,7 +10,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="https://w3id.org/def/dul-espannol">
+    <owl:Ontology rdf:about="https://w3id.org/def/dul-dolce-zero-espannol">
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl"/>
         <rdfs:comment xml:lang="es">Agradecimiento: a María Poveda-Villalón por la generación de la documentación en HTML.</rdfs:comment>
