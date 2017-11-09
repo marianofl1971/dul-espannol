@@ -12,7 +12,7 @@
     <owl:Ontology rdf:about="https://w3id.org/def/dul-dolce-zero-en-espannol">
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
-        <dc:title xml:lang="es">La ontología DOLCE+DnS Ultralite con DOLCE-Zero</dc:title>
+        <dc:title xml:lang="es">La ontología DOLCE+DnS Ultralite con DOLCE-Zero en español</dc:title>
         <terms:creator xml:lang="es">Aldo Gangemi (autor de la ontología original en inglés)</terms:creator>
         <terms:creator xml:lang="es">Mariano Fernández-López (autor de la localización de la ontología en español)</terms:creator>
         <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
