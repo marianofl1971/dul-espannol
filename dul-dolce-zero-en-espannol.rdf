@@ -13,7 +13,7 @@
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <owl:imports rdf:resource="http://www.ontologydesignpatterns.org/ont/d0.owl"/>
         <rdfs:comment xml:lang="es">Agradecimiento: a María Poveda-Villalón por la generación de la documentación en HTML.</rdfs:comment>
-        <dc:title xml:lang="es">La ontología DOLCE+DnS Ultralite con DOLCE-Zero</dc:title>
+        <dc:title xml:lang="es">La ontología DOLCE+DnS Ultralite con DOLCE-Zero en español</dc:title>
         <rdfs:comment xml:lang="es">La ontología DOLCE+DnS Ultralite.
 
 Es una simplificación de algunas partes de la biblioteca DOLCE Lite-Plus (cf. https://www.w3.org/2001/sw/BestPractices/WNET/DLP3941_daml.html).
