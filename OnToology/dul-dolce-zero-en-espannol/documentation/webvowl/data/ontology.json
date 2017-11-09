@@ -2,12 +2,12 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.2-SNAPSHOT), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "es", "en", "it", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/def/dul-es", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/def/dul-dolce-zero-en-espannol", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
     "title" : {
       "en" : "The ontology DOLCE+DnS Ultralite",
       "es" : "La ontología DOLCE+DnS Ultralite"
     },
-    "iri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "version" : "Created by Aldo Gangemi as both a simplification and extension of DOLCE and Descriptions and Situations ontologies.\n\nThe translation into Spanish has been carried out by Mariano Fernández-López",
     "author" : [ "Aldo Gangemi" ],
     "comments" : {
@@ -340,14 +340,14 @@
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalObject",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalObject",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -365,14 +365,14 @@
     "id" : "20",
     "superClasses" : [ "21" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalAttribute",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalAttribute",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -389,14 +389,14 @@
     "id" : "25",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Role",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Role",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -413,14 +413,14 @@
     "id" : "32",
     "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Concept",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Concept",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -438,14 +438,14 @@
     "id" : "28",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Substance",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Substance",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -463,14 +463,14 @@
     "id" : "68",
     "superClasses" : [ "24" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Set",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Set",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -497,14 +497,14 @@
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Project",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Project",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -521,14 +521,14 @@
     "id" : "95",
     "superClasses" : [ "96" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Design",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Design",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -545,14 +545,14 @@
     "id" : "100",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#DesignedArtifact",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#DesignedArtifact",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -570,14 +570,14 @@
     "id" : "15",
     "superClasses" : [ "16" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Diagnosis",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Diagnosis",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -594,14 +594,14 @@
     "id" : "101",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Configuration",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Configuration",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -618,14 +618,14 @@
     "id" : "102",
     "superClasses" : [ "29" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Collective",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Collective",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -642,14 +642,14 @@
     "id" : "106",
     "superClasses" : [ "29" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Place",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Place",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -666,14 +666,14 @@
     "id" : "107",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Group",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Group",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -690,14 +690,14 @@
     "id" : "108",
     "superClasses" : [ "4" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Event",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Event",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -715,14 +715,14 @@
     "id" : "38",
     "superClasses" : [ "77" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SocialAgent",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SocialAgent",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -740,14 +740,14 @@
     "id" : "2",
     "superClasses" : [ "39", "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#ChemicalObject",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#ChemicalObject",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -759,14 +759,14 @@
     "id" : "115",
     "superClasses" : [ "24" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#TypeCollection",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#TypeCollection",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -783,14 +783,14 @@
     "id" : "124",
     "superClasses" : [ "29" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SocialRelation",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SocialRelation",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -807,14 +807,14 @@
     "id" : "127",
     "superClasses" : [ "128" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Quality",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Quality",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -831,14 +831,14 @@
     "id" : "133",
     "superClasses" : [ "77" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Situation",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Situation",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -856,14 +856,14 @@
     "id" : "9",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalArtifact",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalArtifact",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -881,14 +881,14 @@
     "id" : "16",
     "superClasses" : [ "20" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Action",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Action",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -905,14 +905,14 @@
     "id" : "44",
     "superClasses" : [ "38" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalPlace",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalPlace",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -929,14 +929,14 @@
     "id" : "22",
     "superClasses" : [ "20" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Goal",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Goal",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -953,14 +953,14 @@
     "id" : "121",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Contract",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Contract",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -977,14 +977,14 @@
     "id" : "146",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Organism",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Organism",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1001,14 +1001,14 @@
     "id" : "172",
     "superClasses" : [ "23", "173" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SocialObject",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SocialObject",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1028,14 +1028,14 @@
     "id" : "19",
     "superClasses" : [ "21" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#DesignedSubstance",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#DesignedSubstance",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1046,14 +1046,14 @@
     "id" : "81",
     "superClasses" : [ "69", "15" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SocialObjectAttribute",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SocialObjectAttribute",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1070,14 +1070,14 @@
     "id" : "200",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Process",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Process",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1093,14 +1093,14 @@
     "id" : "57",
     "superClasses" : [ "38" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#CollectiveAgent",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#CollectiveAgent",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1118,14 +1118,14 @@
     "id" : "4",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#InformationRealization",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#InformationRealization",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1142,14 +1142,14 @@
     "id" : "160",
     "superClasses" : [ "215" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Community",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Community",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1162,14 +1162,14 @@
     "id" : "210",
     "superClasses" : [ "4" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Classification",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Classification",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1186,14 +1186,14 @@
     "id" : "8",
     "superClasses" : [ "9" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalBody",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalBody",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1210,14 +1210,14 @@
     "id" : "24",
     "superClasses" : [ "20" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#TimeInterval",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#TimeInterval",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1234,14 +1234,14 @@
     "id" : "179",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Region",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Region",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1259,14 +1259,14 @@
     "id" : "26",
     "superClasses" : [ "148" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Transition",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Transition",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1283,14 +1283,14 @@
     "id" : "11",
     "superClasses" : [ "9" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Pattern",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Pattern",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1306,14 +1306,14 @@
     "id" : "188",
     "superClasses" : [ "128" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#UnitOfMeasure",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#UnitOfMeasure",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1330,14 +1330,14 @@
     "id" : "157",
     "superClasses" : [ "47" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Relation",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Relation",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1355,14 +1355,14 @@
     "id" : "128",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Organization",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Organization",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1380,14 +1380,14 @@
     "id" : "63",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Right",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Right",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1404,14 +1404,14 @@
     "id" : "119",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PlanExecution",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PlanExecution",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1431,14 +1431,14 @@
     "id" : "13",
     "superClasses" : [ "9" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#BiologicalObject",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#BiologicalObject",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1451,14 +1451,14 @@
     "id" : "173",
     "superClasses" : [ "24" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SocialPerson",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SocialPerson",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ],
       "versionInfo" : [ {
@@ -1486,14 +1486,14 @@
     "id" : "1",
     "superClasses" : [ "151", "2" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#LocalConcept",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#LocalConcept",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1511,14 +1511,14 @@
     "id" : "55",
     "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Task",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Task",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1535,14 +1535,14 @@
     "id" : "43",
     "superClasses" : [ "54" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Agent",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Agent",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1562,14 +1562,14 @@
     "id" : "39",
     "superClasses" : [ "21" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Abstract",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Abstract",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1587,14 +1587,14 @@
     "id" : "148",
     "superClasses" : [ "77" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Person",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Person",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1614,14 +1614,14 @@
     "id" : "151",
     "superClasses" : [ "39" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#NaturalPerson",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#NaturalPerson",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1638,14 +1638,14 @@
     "id" : "150",
     "superClasses" : [ "23", "151" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SpatioTemporalRegion",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SpatioTemporalRegion",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1656,14 +1656,14 @@
     "id" : "185",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Parameter",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Parameter",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1681,14 +1681,14 @@
     "id" : "47",
     "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#FunctionalSubstance",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#FunctionalSubstance",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1701,14 +1701,14 @@
     "id" : "69",
     "superClasses" : [ "68" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Plan",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Plan",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1726,14 +1726,14 @@
     "id" : "96",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Description",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Description",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1751,14 +1751,14 @@
     "id" : "51",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Amount",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Amount",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1775,14 +1775,14 @@
     "id" : "202",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Workflow",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Workflow",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1799,14 +1799,14 @@
     "id" : "138",
     "superClasses" : [ "96" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Method",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Method",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1823,14 +1823,14 @@
     "id" : "144",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Personification",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Personification",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1846,14 +1846,14 @@
     "id" : "6",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Theory",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Theory",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1870,14 +1870,14 @@
     "id" : "141",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#FormalEntity",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#FormalEntity",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1895,14 +1895,14 @@
     "id" : "72",
     "superClasses" : [ "148" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Object",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Object",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1922,14 +1922,14 @@
     "id" : "21",
     "superClasses" : [ "77" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Collection",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Collection",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1947,14 +1947,14 @@
     "id" : "29",
     "superClasses" : [ "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#SpaceRegion",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#SpaceRegion",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -1971,14 +1971,14 @@
     "id" : "204",
     "superClasses" : [ "26" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#InformationEntity",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#InformationEntity",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2027,14 +2027,14 @@
     "attributes" : [ "union", "anonymous" ],
     "id" : "323"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#PhysicalAgent",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#PhysicalAgent",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2062,14 +2062,14 @@
     "attributes" : [ "union", "anonymous" ],
     "id" : "324"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#WorkflowExecution",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#WorkflowExecution",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2104,14 +2104,14 @@
     "attributes" : [ "union", "anonymous" ],
     "id" : "295"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#InformationObject",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#InformationObject",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2128,14 +2128,14 @@
     "id" : "18",
     "superClasses" : [ "215", "19" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#EventType",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#EventType",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2153,14 +2153,14 @@
     "id" : "54",
     "superClasses" : [ "28" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Entity",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Entity",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2179,14 +2179,14 @@
     "attributes" : [ "union" ],
     "id" : "77"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Narrative",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Narrative",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -2198,14 +2198,14 @@
     "id" : "123",
     "superClasses" : [ "51" ]
   }, {
-    "iri" : "https://w3id.org/def/dul-es#Norm",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#Norm",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "instances" : 0,
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3101,15 +3101,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "17"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#covers",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#covers",
     "inverse" : "30",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3128,14 +3128,14 @@
     "attributes" : [ "object" ],
     "id" : "27"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isPreconditionOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isPreconditionOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "35",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3154,15 +3154,15 @@
     "attributes" : [ "object" ],
     "id" : "33"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#involvesAgent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#involvesAgent",
     "inverse" : "40",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3181,14 +3181,14 @@
     "attributes" : [ "object" ],
     "id" : "37"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isExecutedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isExecutedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3207,15 +3207,15 @@
     "attributes" : [ "object" ],
     "id" : "42"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasParameter",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasParameter",
     "inverse" : "48",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3234,15 +3234,15 @@
     "attributes" : [ "object" ],
     "id" : "46"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSatisfiedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSatisfiedBy",
     "inverse" : "52",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3261,14 +3261,14 @@
     "attributes" : [ "object" ],
     "id" : "50"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTaskOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTaskOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3292,15 +3292,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "56"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPostcondition",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPostcondition",
     "inverse" : "61",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "60",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3324,15 +3324,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "62"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasParticipant",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasParticipant",
     "inverse" : "64",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3387,14 +3387,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "75"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRegionFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRegionFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3424,15 +3424,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "82"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstraint",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstraint",
     "inverse" : "84",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3461,15 +3461,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "89"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#actsFor",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#actsFor",
     "inverse" : "91",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "2",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3488,14 +3488,14 @@
     "attributes" : [ "object" ],
     "id" : "90"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#precedes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#precedes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3515,15 +3515,15 @@
     "attributes" : [ "transitive", "object" ],
     "id" : "92"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasRole",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasRole",
     "inverse" : "94",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3542,15 +3542,15 @@
     "attributes" : [ "object" ],
     "id" : "93"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#expresses",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#expresses",
     "inverse" : "98",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3571,15 +3571,15 @@
     "attributes" : [ "object" ],
     "id" : "97"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#includesAction",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#includesAction",
     "inverse" : "104",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3598,14 +3598,14 @@
     "attributes" : [ "object" ],
     "id" : "103"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConceptExpressedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConceptExpressedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3624,14 +3624,14 @@
     "attributes" : [ "object" ],
     "id" : "109"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#unifies",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#unifies",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3650,14 +3650,14 @@
     "attributes" : [ "object" ],
     "id" : "110"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTaskDefinedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTaskDefinedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3676,14 +3676,14 @@
     "attributes" : [ "object" ],
     "id" : "111"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#usesConcept",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#usesConcept",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3723,15 +3723,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "122"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSpecializedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSpecializedBy",
     "inverse" : "126",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3750,15 +3750,15 @@
     "attributes" : [ "transitive", "object" ],
     "id" : "125"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#classifies",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#classifies",
     "inverse" : "85",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3778,15 +3778,15 @@
     "attributes" : [ "object" ],
     "id" : "45"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasRegion",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasRegion",
     "inverse" : "76",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3806,15 +3806,15 @@
     "attributes" : [ "object" ],
     "id" : "130"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSubordinatedTo",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSubordinatedTo",
     "inverse" : "135",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3833,14 +3833,14 @@
     "attributes" : [ "object" ],
     "id" : "134"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSuperordinatedTo",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSuperordinatedTo",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3899,14 +3899,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isObjectIncludedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isObjectIncludedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3937,15 +3937,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "158"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#concretelyExpresses",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#concretelyExpresses",
     "inverse" : "161",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3964,15 +3964,15 @@
     "attributes" : [ "object" ],
     "id" : "159"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#definesRole",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#definesRole",
     "inverse" : "163",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -3992,15 +3992,15 @@
     "attributes" : [ "object" ],
     "id" : "162"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRelatedToConcept",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRelatedToConcept",
     "inverse" : "49",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4020,14 +4020,14 @@
     "attributes" : [ "symmetric", "object" ],
     "id" : "49"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isComponentOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isComponentOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4046,15 +4046,15 @@
     "attributes" : [ "object" ],
     "id" : "165"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasTask",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasTask",
     "inverse" : "53",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4073,15 +4073,15 @@
     "attributes" : [ "object" ],
     "id" : "164"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasComponent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasComponent",
     "inverse" : "165",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4100,14 +4100,14 @@
     "attributes" : [ "object" ],
     "id" : "167"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasRegionDataValue",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasRegionDataValue",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "170",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4150,15 +4150,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "177"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4183,15 +4183,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "178"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#expands",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#expands",
     "inverse" : "181",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4220,15 +4220,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "184"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#coparticipatesWith",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#coparticipatesWith",
     "inverse" : "186",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4262,14 +4262,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "190"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#actsThrough",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#actsThrough",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4289,15 +4289,15 @@
     "attributes" : [ "object" ],
     "id" : "91"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isReferenceOfInformationRealizedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isReferenceOfInformationRealizedBy",
     "inverse" : "193",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "160",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4316,15 +4316,15 @@
     "attributes" : [ "object" ],
     "id" : "192"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isAbout",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isAbout",
     "inverse" : "195",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4343,15 +4343,15 @@
     "attributes" : [ "object" ],
     "id" : "194"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasQuality",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasQuality",
     "inverse" : "197",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "133",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4400,15 +4400,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "206"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#expressesConcept",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#expressesConcept",
     "inverse" : "109",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4452,14 +4452,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "212"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isDefinedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isDefinedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4479,14 +4479,14 @@
     "attributes" : [ "object" ],
     "id" : "112"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isIntroducedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isIntroducedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4505,14 +4505,14 @@
     "attributes" : [ "object" ],
     "id" : "214"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#directlyPrecedes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#directlyPrecedes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4532,15 +4532,15 @@
     "attributes" : [ "object" ],
     "id" : "36"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#executesTask",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#executesTask",
     "inverse" : "42",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4560,15 +4560,15 @@
     "attributes" : [ "object" ],
     "id" : "216"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#farFrom",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#farFrom",
     "inverse" : "217",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4586,14 +4586,14 @@
     "attributes" : [ "symmetric", "object" ],
     "id" : "217"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasEventDate",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasEventDate",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "219",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4611,14 +4611,14 @@
     "attributes" : [ "datatype" ],
     "id" : "218"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#realizes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#realizes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4637,14 +4637,14 @@
     "attributes" : [ "object" ],
     "id" : "220"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConcretelyExpressedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConcretelyExpressedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "160",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4663,14 +4663,14 @@
     "attributes" : [ "object" ],
     "id" : "161"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasIntervalDate",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasIntervalDate",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "222",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4688,15 +4688,15 @@
     "attributes" : [ "datatype" ],
     "id" : "221"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasLocation",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasLocation",
     "inverse" : "224",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4725,14 +4725,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "226"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isQualityOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isQualityOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4751,14 +4751,14 @@
     "attributes" : [ "object" ],
     "id" : "197"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isAgentIncludedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isAgentIncludedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4778,15 +4778,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "227"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRealizedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRealizedBy",
     "inverse" : "220",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "160",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4805,14 +4805,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "228"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isAgentInvolvedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isAgentInvolvedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4831,15 +4831,15 @@
     "attributes" : [ "object" ],
     "id" : "40"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#conceptualizes",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#conceptualizes",
     "inverse" : "230",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4858,14 +4858,14 @@
     "attributes" : [ "object" ],
     "id" : "229"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isMemberOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isMemberOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4884,14 +4884,14 @@
     "attributes" : [ "object" ],
     "id" : "231"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasDataValue",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasDataValue",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "87",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4909,15 +4909,15 @@
     "attributes" : [ "datatype" ],
     "id" : "232"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#nearTo",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#nearTo",
     "inverse" : "233",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4945,14 +4945,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "235"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#parametrizes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#parametrizes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -4976,15 +4976,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "236"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5004,15 +5004,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "237"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#classifies",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#classifies",
     "inverse" : "85",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5037,15 +5037,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "239"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasTimeInterval",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasTimeInterval",
     "inverse" : "78",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5064,14 +5064,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "240"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isParticipantIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isParticipantIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5091,14 +5091,14 @@
     "attributes" : [ "object" ],
     "id" : "64"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isDescribedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isDescribedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "100",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5117,15 +5117,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "241"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasParticipant",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasParticipant",
     "inverse" : "64",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5145,15 +5145,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "242"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5172,15 +5172,15 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "243"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isParametrizedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isParametrizedBy",
     "inverse" : "129",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5199,15 +5199,15 @@
     "attributes" : [ "object" ],
     "id" : "245"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#includesObject",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#includesObject",
     "inverse" : "152",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5228,15 +5228,15 @@
     "attributes" : [ "object" ],
     "id" : "246"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConceptUsedIn",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConceptUsedIn",
     "inverse" : "113",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5271,14 +5271,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "251"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#satisfies",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#satisfies",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5297,15 +5297,15 @@
     "attributes" : [ "object" ],
     "id" : "52"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isObservableAt",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isObservableAt",
     "inverse" : "79",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5329,14 +5329,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "252"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasParameterDataValue",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasParameterDataValue",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "86",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5354,14 +5354,14 @@
     "attributes" : [ "datatype" ],
     "id" : "253"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isCoveredBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isCoveredBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5395,15 +5395,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "256"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasMember",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasMember",
     "inverse" : "231",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5422,14 +5422,14 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "257"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConstraintFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConstraintFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5448,14 +5448,14 @@
     "attributes" : [ "object" ],
     "id" : "84"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isEventIncludedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isEventIncludedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5471,15 +5471,15 @@
     "attributes" : [ "object" ],
     "id" : "258"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5499,14 +5499,14 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "259"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isDefinedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isDefinedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5541,15 +5541,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "263"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#directlyFollows",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#directlyFollows",
     "inverse" : "36",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5569,15 +5569,15 @@
     "attributes" : [ "object" ],
     "id" : "136"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#defines",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#defines",
     "inverse" : "112",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5597,15 +5597,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "266"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasComponent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasComponent",
     "inverse" : "165",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "121",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5624,15 +5624,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "268"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasMember",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasMember",
     "inverse" : "231",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5651,14 +5651,14 @@
     "attributes" : [ "object" ],
     "id" : "269"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isActionIncludedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isActionIncludedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5673,14 +5673,14 @@
     "attributes" : [ "object" ],
     "id" : "104"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isParameterFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isParameterFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5699,14 +5699,14 @@
     "attributes" : [ "object" ],
     "id" : "48"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRoleOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRoleOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5725,15 +5725,15 @@
     "attributes" : [ "object" ],
     "id" : "94"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#sameSettingAs",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#sameSettingAs",
     "inverse" : "270",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "label"
       } ]
     },
@@ -5752,15 +5752,15 @@
     "attributes" : [ "symmetric", "object" ],
     "id" : "270"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasTimeInterval",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasTimeInterval",
     "inverse" : "78",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5789,14 +5789,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "272"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRegionFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRegionFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "20",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5821,15 +5821,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "274"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "20",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5874,15 +5874,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "280"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "47",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5907,15 +5907,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "282"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#definesTask",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#definesTask",
     "inverse" : "111",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5935,14 +5935,14 @@
     "attributes" : [ "object" ],
     "id" : "267"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isDescribedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isDescribedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "96",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5966,15 +5966,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "284"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#describes",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#describes",
     "inverse" : "286",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -5993,15 +5993,15 @@
     "attributes" : [ "object" ],
     "id" : "285"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#conceptualizes",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#conceptualizes",
     "inverse" : "230",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "96",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6035,15 +6035,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "290"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#classifies",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#classifies",
     "inverse" : "85",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6073,15 +6073,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "293"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRealizedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRealizedBy",
     "inverse" : "220",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "160",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6100,15 +6100,15 @@
     "attributes" : [ "object" ],
     "id" : "294"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPrecondition",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPrecondition",
     "inverse" : "33",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "296",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6127,15 +6127,15 @@
     "attributes" : [ "object" ],
     "id" : "265"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#overlaps",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#overlaps",
     "inverse" : "297",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6154,15 +6154,15 @@
     "attributes" : [ "symmetric", "object" ],
     "id" : "297"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasLocation",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasLocation",
     "inverse" : "224",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6181,15 +6181,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "298"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6209,15 +6209,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "299"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6241,14 +6241,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "301"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isParticipantIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isParticipantIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6273,14 +6273,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isClassifiedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isClassifiedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6325,15 +6325,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "309"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#includesAgent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#includesAgent",
     "inverse" : "154",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6352,14 +6352,14 @@
     "attributes" : [ "object" ],
     "id" : "248"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#realizes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#realizes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6383,15 +6383,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "311"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#concretelyExpresses",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#concretelyExpresses",
     "inverse" : "161",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6415,14 +6415,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "313"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isLocationOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isLocationOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6447,14 +6447,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "314"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRegionFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRegionFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6474,15 +6474,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "315"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "204",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6501,15 +6501,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "316"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6528,15 +6528,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "317"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRelatedToDescription",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRelatedToDescription",
     "inverse" : "182",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6556,14 +6556,14 @@
     "attributes" : [ "symmetric", "object" ],
     "id" : "182"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRegionFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRegionFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6583,14 +6583,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "318"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isExpandedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isExpandedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6609,15 +6609,15 @@
     "attributes" : [ "object" ],
     "id" : "181"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#characterizes",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#characterizes",
     "inverse" : "320",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6636,14 +6636,14 @@
     "attributes" : [ "object" ],
     "id" : "319"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isCharacterizedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isCharacterizedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6659,14 +6659,14 @@
     "attributes" : [ "object" ],
     "id" : "320"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isExpressedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isExpressedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6686,14 +6686,14 @@
     "attributes" : [ "object" ],
     "id" : "98"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isReferenceOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isReferenceOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6712,14 +6712,14 @@
     "attributes" : [ "object" ],
     "id" : "195"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isExpressedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isExpressedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "18",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6739,15 +6739,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "321"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#introduces",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#introduces",
     "inverse" : "214",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "2",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6766,14 +6766,14 @@
     "attributes" : [ "object" ],
     "id" : "322"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isPostconditionOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isPostconditionOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "324",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6792,15 +6792,15 @@
     "attributes" : [ "object" ],
     "id" : "61"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6820,15 +6820,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "325"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#associatedWith",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#associatedWith",
     "inverse" : "31",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6846,15 +6846,15 @@
     "attributes" : [ "symmetric", "transitive", "object" ],
     "id" : "31"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#defines",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#defines",
     "inverse" : "112",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6875,14 +6875,14 @@
     "attributes" : [ "object" ],
     "id" : "114"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#satisfies",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#satisfies",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6901,14 +6901,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "329"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRoleDefinedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRoleDefinedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6927,15 +6927,15 @@
     "attributes" : [ "object" ],
     "id" : "163"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#classifies",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#classifies",
     "inverse" : "85",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "21",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6955,14 +6955,14 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "330"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#actsThrough",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#actsThrough",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "23",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -6986,15 +6986,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "332"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7014,15 +7014,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "333"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isUnifiedBy",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isUnifiedBy",
     "inverse" : "110",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7041,15 +7041,15 @@
     "attributes" : [ "object" ],
     "id" : "326"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#overlaps",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#overlaps",
     "inverse" : "297",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7068,15 +7068,15 @@
     "attributes" : [ "allValues", "symmetric", "object" ],
     "id" : "334"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7096,14 +7096,14 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "335"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isRegionFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isRegionFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "133",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7123,15 +7123,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "336"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#includesEvent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#includesEvent",
     "inverse" : "258",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7152,14 +7152,14 @@
     "attributes" : [ "object" ],
     "id" : "105"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#specializes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#specializes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "19",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7178,14 +7178,14 @@
     "attributes" : [ "transitive", "object" ],
     "id" : "126"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConstituentOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConstituentOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7204,15 +7204,15 @@
     "attributes" : [ "object" ],
     "id" : "244"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasSetting",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasSetting",
     "inverse" : "247",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7232,14 +7232,14 @@
     "attributes" : [ "object" ],
     "id" : "153"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSettingFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSettingFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7261,14 +7261,14 @@
     "attributes" : [ "object" ],
     "id" : "247"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#precedes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#precedes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7288,14 +7288,14 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "339"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isPartOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isPartOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7315,15 +7315,15 @@
     "attributes" : [ "transitive", "object" ],
     "id" : "166"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "133",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7343,15 +7343,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "340"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7370,15 +7370,15 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "341"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasRegion",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasRegion",
     "inverse" : "76",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7398,15 +7398,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "342"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#defines",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#defines",
     "inverse" : "112",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7426,14 +7426,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "343"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isQualityOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isQualityOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7452,15 +7452,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "344"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#includesTime",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#includesTime",
     "inverse" : "337",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7480,15 +7480,15 @@
     "attributes" : [ "object" ],
     "id" : "338"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "133",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7512,15 +7512,15 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "346"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasParticipant",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasParticipant",
     "inverse" : "64",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7555,14 +7555,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "350"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSettingFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSettingFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "179",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7582,14 +7582,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "351"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSettingFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSettingFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7609,15 +7609,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "352"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "29",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7637,15 +7637,15 @@
     "attributes" : [ "allValues", "transitive", "object" ],
     "id" : "353"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasCommonBoundary",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasCommonBoundary",
     "inverse" : "327",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7673,14 +7673,14 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "355"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTimeOfObservationOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTimeOfObservationOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7699,15 +7699,15 @@
     "attributes" : [ "object" ],
     "id" : "79"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#follows",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#follows",
     "inverse" : "92",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7727,14 +7727,14 @@
     "attributes" : [ "transitive", "object" ],
     "id" : "264"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isConceptualizedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isConceptualizedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "39",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7753,14 +7753,14 @@
     "attributes" : [ "object" ],
     "id" : "230"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#parametrizes",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#parametrizes",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "26",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7779,14 +7779,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "356"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSettingFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSettingFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "57",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7806,15 +7806,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "357"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasConstituent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasConstituent",
     "inverse" : "244",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7833,15 +7833,15 @@
     "attributes" : [ "object" ],
     "id" : "328"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#defines",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#defines",
     "inverse" : "112",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7861,15 +7861,15 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "358"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#defines",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#defines",
     "inverse" : "112",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7889,14 +7889,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "359"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTimeIntervalOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTimeIntervalOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7915,14 +7915,14 @@
     "attributes" : [ "object" ],
     "id" : "78"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isDescribedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isDescribedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7941,14 +7941,14 @@
     "attributes" : [ "object" ],
     "id" : "286"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isSettingFor",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isSettingFor",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7968,14 +7968,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "360"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTimeIntervalOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTimeIntervalOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "38",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -7994,14 +7994,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "361"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTimeIncludedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTimeIncludedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "9",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8016,15 +8016,15 @@
     "attributes" : [ "object" ],
     "id" : "337"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasComponent",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasComponent",
     "inverse" : "165",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "128",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8043,14 +8043,14 @@
     "attributes" : [ "someValues", "object" ],
     "id" : "362"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#realizesInformationAbout",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#realizesInformationAbout",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "77",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8069,14 +8069,14 @@
     "attributes" : [ "object" ],
     "id" : "193"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTaskOf",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTaskOf",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "32",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8095,14 +8095,14 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "363"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isExecutedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isExecutedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "44",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8121,14 +8121,14 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "364"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isTaskDefinedIn",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isTaskDefinedIn",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "51",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8147,14 +8147,14 @@
     "attributes" : [ "allValues", "object" ],
     "id" : "365"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#isClassifiedBy",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#isClassifiedBy",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "28",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
@@ -8174,15 +8174,15 @@
     "attributes" : [ "object" ],
     "id" : "85"
   }, {
-    "iri" : "https://w3id.org/def/dul-es#hasPart",
+    "iri" : "https://w3id.org/def/dul-dolce-zero-en-espannol#hasPart",
     "inverse" : "166",
-    "baseIri" : "https://w3id.org/def/dul-es",
+    "baseIri" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
     "range" : "43",
     "annotations" : {
       "isDefinedBy" : [ {
         "identifier" : "isDefinedBy",
         "language" : "undefined",
-        "value" : "https://w3id.org/def/dul-es",
+        "value" : "https://w3id.org/def/dul-dolce-zero-en-espannol",
         "type" : "iri"
       } ]
     },
