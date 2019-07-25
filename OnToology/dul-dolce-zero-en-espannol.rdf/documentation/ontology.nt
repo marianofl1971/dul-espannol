@@ -1,7 +1,7 @@
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/ont/d0.owl> .
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://www.w3.org/2002/07/owl#imports> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> .
-<https://w3id.org/def/dul-dolce-zero-en-espannol> <http://purl.org/dc/elements/1.1/title> "La ontolog\u00EDa DOLCE+DnS Ultralite con DOLCE-Zero"@es .
+<https://w3id.org/def/dul-dolce-zero-en-espannol> <http://purl.org/dc/elements/1.1/title> "La ontolog\u00EDa DOLCE+DnS Ultralite con DOLCE-Zero en espa\u00F1ol"@es .
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://purl.org/dc/terms/creator> "Aldo Gangemi (autor de la ontolog\u00EDa original en ingl\u00E9s)"@es .
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://purl.org/dc/terms/creator> "Mariano Fern\u00E1ndez-L\u00F3pez (autor de la localizaci\u00F3n de la ontolog\u00EDa en espa\u00F1ol)"@es .
 <https://w3id.org/def/dul-dolce-zero-en-espannol> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .

@@ -9,7 +9,7 @@
 <https://w3id.org/def/dul-dolce-zero-en-espannol> rdf:type owl:Ontology ;
                                                    owl:imports <http://www.ontologydesignpatterns.org/ont/d0.owl> ,
                                                                <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
-                                                   <http://purl.org/dc/elements/1.1/title> "La ontología DOLCE+DnS Ultralite con DOLCE-Zero"@es ;
+                                                   <http://purl.org/dc/elements/1.1/title> "La ontología DOLCE+DnS Ultralite con DOLCE-Zero en español"@es ;
                                                    <http://purl.org/dc/terms/creator> "Aldo Gangemi (autor de la ontología original en inglés)"@es ,
                                                                                       "Mariano Fernández-López (autor de la localización de la ontología en español)"@es ;
                                                    <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> ;
